@@ -23,5 +23,5 @@ os - for operations with system files.
 
 shutil - for working with file operations, such as copying directories and files.
 
-If you are using the script on different machines or with different configurations, I recommend checking if all these libraries are installed on your system. You can install them using pip:
+If you are using the script on different machines or with different configurations, I recommend checking if all these libraries are installed on your system. You can install them using pip.
 
