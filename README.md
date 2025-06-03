@@ -4,7 +4,8 @@ You must cite https://hexagon-lab.com as the source of the original application 
 ````markdown
 # TMX to JSON Converter - by HEXAGON-Lab
 
-A graphical tool for converting translation data from TMX (Translation Memory eXchange) files into JSON format. Built using Python's `tkinter` library.
+A graphical tool for converting translation data from TMX (Translation Memory eXchange) files into JSON format. 
+Built using Python's `tkinter` library.
 
 ## 📦 Features
 
