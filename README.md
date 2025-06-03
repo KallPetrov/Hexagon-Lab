@@ -1,27 +1,71 @@
 # Hexagon-Lab
 Hexagon-Lab Project
 You must cite https://hexagon-lab.com as the source of the original application code, regardless of whether you have made changes or not.
-TMX to JSON converter. 
-A handy converter for translation memories or training LLM Models. To use it, you need to have the following Python libraries.
-Here is a list of the libraries I used in the script for processing TMX files:
+Sure! Here's the English version of the `README.md` for your script:
 
-tkinter - for creating the graphical user interface (GUI).
+````markdown
+# TMX to JSON Converter - by HEXAGON-Lab
 
-xml.etree.ElementTree (ET) - for working with XML files and processing TMX format.
+A graphical tool for converting translation data from TMX (Translation Memory eXchange) files into JSON format. Built using Python's `tkinter` library.
 
-pandas - for working with tabular data (for example, for exporting to CSV, Excel or Parquet).
+## 📦 Features
 
-csv - for writing data in CSV format.
+- Load a `.tmx` file for processing.
+- Automatically detect available languages in the file(s).
+- Select source and target languages from dropdown menus.
+- Preview translation pairs (source → target).
+- Limit the number of displayed translation pairs.
+- Export translation pairs to a formatted `.json` file.
 
-json - for working with JSON files.
+## 🖥️ GUI Overview
 
-yaml - for working with YAML files.
+- **Upload File** – Choose a TMX file to load.
+- **Source/Target Language** – Select the languages to extract translation pairs.
+- **Number of Rows to Visualize** – Set how many rows to display in the preview.
+- **Export to JSON** – Save the extracted translation pairs to a JSON file.
 
-zipfile - for working with archives (zip files).
+## 🧪 Output Format
 
-os - for operations with system files.
+Exported JSON file structure:
+```json
+[
+  {
+    "source": "Hello",
+    "target": "Bonjour"
+  },
+  {
+    "source": "Goodbye",
+    "target": "Au revoir"
+  }
+]
+````
 
-shutil - for working with file operations, such as copying directories and files.
+## 🚀 Getting Started
 
-If you are using the script on different machines or with different configurations, I recommend checking if all these libraries are installed on your system. You can install them using pip.
+1. Make sure you have Python 3 installed.
+2. Save the script as `tmx_converter.py`.
+3. Run the application:
+
+   ```bash
+   python tmx_converter.py
+   ```
+
+## ⚠️ Requirements
+
+* Python 3.x
+* No external dependencies (uses only standard libraries: `tkinter`, `os`, `json`, `xml`, etc.)
+
+## 📝 Notes
+
+* The tool supports selecting a single `.tmx` file.
+* Only language pairs that exist in the TMX entries will be shown/exported.
+* Any errors during file parsing will be logged and displayed in the text area.
+
+## 🧑‍💻 Author
+
+Developed by **HEXAGON-Lab**
+
+Version: `1.0`
+
+
 
