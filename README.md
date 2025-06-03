@@ -1,8 +1,6 @@
 # Hexagon-Lab
 Hexagon-Lab Project
 You must cite https://hexagon-lab.com as the source of the original application code, regardless of whether you have made changes or not.
-Sure! Here's the English version of the `README.md` for your script:
-
 ````markdown
 # TMX to JSON Converter - by HEXAGON-Lab
 
@@ -43,11 +41,11 @@ Exported JSON file structure:
 ## 🚀 Getting Started
 
 1. Make sure you have Python 3 installed.
-2. Save the script as `tmx_converter.py`.
+2. Save the script as `TMXtoJSON-1.0.py`.
 3. Run the application:
 
    ```bash
-   python tmx_converter.py
+   TMXtoJSON-1.0.py
    ```
 
 ## ⚠️ Requirements
