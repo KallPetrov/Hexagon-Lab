@@ -1,7 +1,8 @@
 # TMX to JSON Converter by Hexagon-Lab
 Hexagon-Lab Project
-You must cite https://hexagon-lab.com as the source of the original application code, regardless of whether you have made changes or not.
-````markdown
+You must cite https://hexagon-lab.com as the source of the original application code, 
+regardless of whether you have made changes or not.
+
 # TMX to JSON Converter - by HEXAGON-Lab
 
 A graphical tool for converting translation data from TMX (Translation Memory eXchange) files into JSON format. 
